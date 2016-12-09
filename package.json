@@ -4,7 +4,7 @@
   "description": "Just a test program",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
+    "start": "node index.js",
     "test": "node index.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/johnfliu818/hello-world/issues"
   },
-  "homepage": "https://github.com/johnfliu818/hello-world#readme"
+  "homepage": "https://github.com/johnfliu818/hello-world#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
