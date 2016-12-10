@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-	"lint": "standard",
+    "lint": "standard",
     "test": "mocha"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/johnfliu818/hello-world#readme",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
