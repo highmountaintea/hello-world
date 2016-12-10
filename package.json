@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "standard",
-    "test": "mocha"
+    "lint": "jshint .",
+    "test": "mocha",
+	"posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
+    "jshint": "^2.9.4",
     "mocha": "^3.2.0"
   }
 }
